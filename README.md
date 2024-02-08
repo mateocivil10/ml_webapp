@@ -50,7 +50,7 @@ Once you have created the app.py and the dockerfile please run the following com
 ## DOCKEFILE :file_folder:
 1. CMD ["gunicorn","--bind", "0.0.0.0:5004", "app:app"]
 * **Defines that when the container is started, gunicorn will be executed to serve the flask app**
-* **gunicorn will listen all red interfaces in the port 5004**
+* **gunicorn will listen all net interfaces in the port 5004**
 
 ## Developers
 ----------------------
